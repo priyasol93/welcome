@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+      body{
+          background:url('images/n2.webp');
+          background-repeat:no-repeat;
+          background-position:center;
+      }
+  </style> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg nav-expand-sm navbar-dark bg-primary">
+        <a href="" class="navbar-brand">
+<img src="/images/picachu.png" class="img-thumbnail" width=50 alt="">
+<span>My Website</span>
+        </a>
+        <button class="navbar-toggler"  data-target="#nav" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ml-auto">
+           
+            <li class="nav-items">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-items">
+                <a class="nav-link active btn-success" href="about.html" style="border-radius: 30px 0px 30px 0px">About</a>
+            </li>
+            <li class="nav-items">
+                <a class="nav-link" href="forms.html">ContactUs</a>
+            </li>
+            <li class="nav-items">
+                <a class="nav-link text-danger" href="#">Gallery</a>
+            </li>
+        </ul>
+        
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button class="btn btn-success my-2 my-sm-0" type="submit" data-target="#loginModal" data-toggle="modal">Signup</button>
+         
+    </div>
+    </nav>
+
+    <div class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login Form</h4>
+                    
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    
+                </div>
+         
+                    <div class="modal-body">
+                        <form class="needs-validation" novalidate>
+                            <label for="email">password</label>
+                            <input type="password" data-minlength="8" id="email" class="form-control"  required>
+                       <small class="invalid-feedback">Please enter the required fields</small>
+                      
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                     <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="jumbotron my-5 bg-info" style="height:30px">
+<h1>AboutUs</h1>
+</div>
+    <img class="img-thumbnail my-5" src="/images/n1.webp" alt="" style="float:right">
+    <p class="m-5 lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aut, dolores debitis hic quo, dicta repellendus velit quod, ad ab placeat iusto tempore minima. Repudiandae nemo, numquam tempora a repellendus hic, voluptates itaque cumque, debitis ab assumenda! Necessitatibus architecto, corrupti ipsa vero voluptatem error possimus hic officia ducimus. Qui facere provident quidem deserunt mollitia architecto quasi reprehenderit! Est fuga ea placeat repellendus rem. Laborum, magnam, eius vitae culpa ullam, asperiores quaerat exercitationem deleniti ducimus cumque earum labore excepturi dolorum consectetur saepe nihil necessitatibus dolor voluptate dolore sit dolores. Vel fugit ullam fugiat ratione assumenda veniam quibusdam voluptatum sed eligendi asperiores maxime voluptate earum quos expedita, in accusantium nemo omnis voluptatibus vero repellat. Non harum voluptatem consectetur, id laborum perferendis reiciendis sed numquam vel, hic expedita quibusdam molestias in nam nesciunt quaerat cumque veniam Quam ex explicabo expedita, hic, nam iure quasi esse accusantium sapiente sequi pariatur quidem numquam ab recusandae natus qui autem molestiae dolorum nihil amet quisquam maxime eos! Amet voluptates laborum assumenda quis tempore officia delectus neque, fugit provident, distinctio hic eum recusandae rerum molestiae, asperiores molestias debitis odio tenetur magnam exercitationem ullam. Ducimus odit nulla ipsum voluptate suscipit, ipsa ipsam similique asperiores corrupti magnam laboriosam sed hic.</p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
