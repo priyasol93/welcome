@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar .btn-info{
+       border-top-left-radius: 25px;
+     }
+   </style>
+<body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="">
+            <img src="/images/picachu.png" class="img-thumbnail" width="50"  alt="">
+            Logo</a>
+        <button class="navbar-toggler" data-target="#nav" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="navbar.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-white btn btn-info" href="aboutus.html">AboutUs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="forms.html" >ContactUs</a>
+            </li>
+        </ul>
+        <div clas="m-2">
+        <button class="btn btn-primary" data-target="#login" data-toggle="modal">SignUp</button>
+        <button class="btn btn-success" data-target="#signin" data-toggle="modal">SignIn</button>
+      </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login Form</h4>
+      <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="m ml-auto mx-auto needs-validation" novalidate>
+                        <div class="container bg-white">
+                        <div class="row">
+                            <div class="col">
+                                
+                    <div class="form-group">
+                    
+                    <label for="user">Username</label>
+                    <span class="input-group-addon" id="basic-addon1">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                       
+                    
+                        <input type="text" class="form-control" aria-describedby="basic-addon1"  required >
+                
+                      <div class="invalid-feedback">Username is invalid</div>
+                </div>
+              
+                
+            </div>
+            
+            
+            
+            <div class="col">
+                <div class="form-group">
+                    <label for="pass">Password</label>
+                    <input type="password"  id="pass" class="form-control" required>
+                <div class="invalid-feedback">Please enter the password</div>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="">Gender</label>
+            
+            <div class="form-check  form-check-inline">
+                <input type="radio" name="n" class="form-check-input">
+                <label for="" class="form-check-label">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" name="n" class="form-check-input">
+                <label for="" class="form-check-label">Female</label>
+            </div>
+            </div>
+            <div class="form-check">
+            <input type="checkbox"  id="" class="form-check-input">
+            <label class="form-check-label" for="">RememberMe</label>
+            </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+                </form>
+                
+               
+      
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="signin">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">SignIn</h3>
+                <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+      </div>
+      </div>
+      
+    <div class="jumbotron-fulid bg-primary my-5">
+    <h1 class="display-3 text-center">AboutUs</h1>
+</div>
+    <img src="/images/n3.jpg" width="300px" style="float:right" alt="">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos exercitationem culpa iste quibusdam sint placeat, blanditiis quod, sit debitis, necessitatibus est quae sequi voluptatem id iure. Accusantium dolorum sunt quod? Quisquam voluptas ab, magnam architecto aut quia! Soluta beatae ullam explicabo. Similique culpa commodi tempore? Repellat libero qui adipisci in omnis magnam aut tenetur itaque. Quia ratione cupiditate eos quae neque. Tempora harum non, sequi voluptatibus aperiam illo eveniet iusto nisi molestias ipsum accusantium assumenda blanditiis distinctio iste eaque placeat praesentium qui corrupti dolor aliquid! Recusandae fugiat, odit voluptas aut provident deserunt quisquam consequuntur esse facilis quod voluptatem ducimus reprehenderit!
+
+    </p>
+    <p class="m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quasi ullam veniam nisi sint modi perspiciatis eaque, dolorem voluptatibus reiciendis explicabo dolores possimus illum, cum totam magni, pariatur culpa iste quas id error! Perspiciatis ex amet corporis obcaecati consequatur explicabo? Quisquam, aut molestiae. Facere quod minus natus a necessitatibus. Iusto vero temporibus exercitationem saepe. Quidem consectetur a eius saepe error fugiat esse odit at ipsa deserunt architecto similique quae molestiae, modi alias quia impedit natus neque iusto? Autem facere tempore omnis necessitatibus explicabo laboriosam consequatur quisquam, expedita iure praesentium delectus corporis sunt, reprehenderit eos culpa illo dignissimos modi vero illum vel officia ad! Laudantium architecto consequuntur laboriosam aspernatur. Molestias obcaecati odio fugit perspiciatis officiis minus ea voluptate commodi, odit eius accusamus non ipsum dolor corrupti, quas ullam! Nostrum aliquam exercitationem nulla ab quam rem, numquam excepturi tempora, delectus officiis quisquam sit adipisci laboriosam veniam, quas quae. Vitae incidunt, voluptates nulla ex possimus ut laudantium atque ipsam! Error accusamus qui perspiciatis atque, nisi consequuntur excepturi, nobis ad mollitia dolores, consequatur in veniam hic neque. Adipisci reprehenderit ex totam, natus illo, veniam nemo, molestias a nisi suscipit sint nobis? Saepe doloribus iure deleniti, ea ad totam beatae, assumenda illo vitae, molestias nulla.</p>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
